@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Minh Thien</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>PORTFOLIO</strong></a>
+									<ul class="icons">
+										<li><a href="https://www.linkedin.com/in/minhthien/" class="icon brands fa-linkedin"><span class="label"><Linkedin></Link></span></a></li>
+										<li><a href="https://github.com/MinhThien101" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Exploratory Data Analysis on Bitcoin Price with Python</h1>
+									</header>
+
+									<span class="image main"><img src="images/bitcoin_wall.jpg" alt="" /></span>
+
+									<p>Link to the dataset: <a href="https://www.kaggle.com/datasets/kapturovalexander/bitcoin-and-other-14-most-significant-cryptos?select=10+Solana.csv" class="logo"><strong>Here</strong></a></p>
+									<p>Link to my code: <a href="https://github.com/MinhThien101/PortfolioProject/blob/main/Explore%20Amazon%20Products.ipynb" class="logo"><strong>Here</strong></a></p>
+									<h4></h4>
+
+									<hr class="major" />
+
+									<h2>Data Description</h2>
+									<p>Bitcoin is a decentralized digital currency that has gained popularity in recent years as an alternative to traditional currencies. One of the key features of Bitcoin is its volatile price, which can fluctuate rapidly in response to various factors such as news events, regulatory changes, and market sentiment. In this report, we will explore the historical price data of Bitcoin and try to uncover some insights and trends.</p>
+									<p>The Bitcoin price data used in this analysis was obtained from Kaggle community and covers the period from September 2014 to April 2023. This data was published by ALEXANDER KAPTUROV.</p>
+									<p>The data includes:</p>
+									<ul>
+										<li>Date: The date on which the cryptocurrency prices were recorded. This column is usually in the YYYY-MM-DD format.</li>
+										<li>Open: The opening price of the cryptocurrency on that date.</li>
+										<li>High: The highest price of the cryptocurrency on that date.</li>
+										<li>Low: The lowest price of the cryptocurrency on that date.</li>
+										<li>Close: The closing price of the cryptocurrency on that date.</li>
+										<li>Adj Close: The adjusted closing price of the cryptocurrency on that date. This is the closing price adjusted for any corporate actions such as stock splits or dividends.</li>
+										<li>Volume: The total trading volume of the cryptocurrency on that date. This represents the total number of coins that were traded on that day.</li>
+										<li>Return: The changing price in percented</li>
+									</ul>
+									<img src="images/data_hist.png" alt="data_hist">
+
+									<hr class="major" />
+
+									<h2>Exploratory Data Analysis</h2>
+									<p>Now first take a look on how Bitcoin price changing over time.</p>
+									
+									<img src="images/bitcoin_price.png" alt="bitcoin_price">
+									<li><strong>Bitcoin price has shown a tremendous increase over the years:</strong> In this dataset, we can see Bitcoin price has increased tremendously over the year. From September 2014, the price was only 424 USD then increased to the biggest price in history to 68,789 USD in November 2021.</p>
+									<li><strong>Highly volatile and subject to rapid fluctuations:</strong> From 2015 to 2017, there not much change. There have been several instances in the past where the price of Bitcoin has risen or fallen sharply in a short period of time. In late 2017, the price of Bitcoin rose from around 4,000 USD per coin, then from 4000 USD rise up to 20,000 USD in just a few months, before crashing back down to around $3,000 in early 2019. And after 3 years to late 2022, the price hit 63,000 USD, then crack down to 30,000 USD and finally reach 67,000 USD in September 2021.</p>
+									
+									<img src="images/volume_adjclose.png" alt="volume_adjclose">
+									<li><strong>Bitcoin price is correlated with trading volume:</strong> We observed a strong positive correlation between Bitcoin price and trading volume, indicating that higher trading activity tends to drive up the price.</li>
+									<br><li><strong>Bitcoin price is affected by news events and external factors:</strong>  We found some evidence to suggest that Bitcoin price can be influenced by news events and external factors such as regulatory changes and market sentiment. For example, the price of Bitcoin dropped sharply in March 2020 in response to the COVID-19 pandemic, and has since recovered to some extent.</li>
+									<br><br><img src="images/return.png" alt="return">
+									<li><strong>Returns rate highly volatile:</strong> We also looked at the distribution of daily returns of bitcoin. The histogram of daily returns shows a symmetrical distribution, with a mean return of 0.2% and a standard deviation of 3.8%. This indicates that while bitcoin prices have been highly volatile, the daily returns have been largely symmetrical over the entire period.</li>
+									
+									<br><img src="images/return_rate.png" alt="return_rate">
+									
+									<hr class="major" />
+
+									<h2>Conclusion</h2>
+									<p>In this report, we analyzed historical data on bitcoin prices using EDA. We found that bitcoin prices have been highly volatile over the past decade, with several sharp increases and decreases in price. The daily returns of bitcoin have been largely symmetrical over the entire period. We also found that the prices of bitcoin and other cryptocurrencies are highly positively correlated.</p>
+									<p>These insights can be useful for investors who are interested in investing in cryptocurrencies like bitcoin. However, it is important to note that cryptocurrencies are highly speculative and volatile, and investors should carefully consider the risks before investing. Overall, EDA provides useful insights into the historical trends and patterns of bitcoin prices, which can aid in making informed investment decisions.</p>
+
+								</section>
+
+						</div>
+					</div>
+				
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
